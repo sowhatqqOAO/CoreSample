@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Asp.Net Core Learn</name>
+    </assembly>
+    <members>
+        <member name="M:Asp.Net_Core_Learn.Controllers.NewsController.Get">
+            <summary>
+            取得消息
+            </summary>
+            <param name="parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Asp.Net_Core_Learn.Controllers.NewsController.AddAccount(Model.ViewModel.VMNews)">
+            <summary>
+            新增消息
+            </summary>
+            <param name="parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Asp.Net_Core_Learn.Controllers.NewsController.UpdateAccount(Model.ViewModel.VMNews)">
+            <summary>
+            更新消息
+            </summary>
+            <param name="parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Asp.Net_Core_Learn.Controllers.NewsController.RemoveAccount(System.Guid)">
+            <summary>
+            刪除消息
+            </summary>
+            <param name="sPk"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Asp.Net_Core_Learn.Controllers.WeatherForecastController">
+            <summary>
+            API範例
+            </summary>
+        </member>
+        <member name="F:Asp.Net_Core_Learn.Filter.ActionFilter.Configuration">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:Asp.Net_Core_Learn.Filter.ActionFilter.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            ctor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:Asp.Net_Core_Learn.Filter.ActionFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            OnActionExecuting(參考網址：https://docs.microsoft.com/zh-tw/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0)
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="F:Asp.Net_Core_Learn.Helpers.JwtHelpers.Configuration">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="F:Asp.Net_Core_Learn.Helpers.JwtHelpers._cache">
+            <summary>
+            記憶體快取
+            </summary>
+        </member>
+        <member name="M:Asp.Net_Core_Learn.Helpers.JwtHelpers.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            ctor
+            </summary>
+            <param name="configuration"></param>
+            <param name="Memorycatch"></param>
+        </member>
+        <member name="M:Asp.Net_Core_Learn.Helpers.JwtHelpers.GenerateToken(System.String,System.Int32)">
+            <summary>
+            產生JWT Token
+            </summary>
+            <param name="userName">Token使用者</param>
+            <param name="expireMinutes">Token過期時間-單位分鐘</param>
+            <returns></returns>
+        </member>
+        <member name="F:Asp.Net_Core_Learn.Startup.sCSRF">
+            <summary>
+            CSRF的命名
+            </summary>
+        </member>
+        <member name="M:Asp.Net_Core_Learn.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            注入服務
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:Asp.Net_Core_Learn.WeatherForecast">
+            <summary>
+            API範例
+            </summary>
+        </member>
+    </members>
+</doc>
