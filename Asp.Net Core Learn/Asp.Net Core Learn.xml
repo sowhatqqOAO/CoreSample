@@ -29,7 +29,7 @@
             <summary>
             刪除消息
             </summary>
-            <param name="sPk"></param>
+            <param name="gPK"></param>
             <returns></returns>
         </member>
         <member name="T:Asp.Net_Core_Learn.Controllers.WeatherForecastController">
